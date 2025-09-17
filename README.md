@@ -57,8 +57,7 @@ model, scaler, columns = joblib.load("heart_disease_model.pkl")
 
 
 Results
-Best Model: Random Forest (after tuning)
-Best Accuracy: ~X% (replace with your result)
+Best Model: Random Forest 
 ROC curves plotted for all models
 Feature importance and clustering visualizations
 
@@ -66,6 +65,6 @@ Feature importance and clustering visualizations
 Files:
 project.py → main code
 heart.csv → dataset
-heart_disease_model.pkl → saved model (binary file, not human-readable)
+heart_disease_model.pkl → saved model 
 requirements.txt → dependencies list
 README.md → project documentation
